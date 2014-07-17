@@ -10,9 +10,9 @@
   "main": "index",
   "bin": {
     "meanp": "./bin/meanp",
-    "mean-module": "./bin/meanp-module",
-    "mean-list": "./bin/meanp-list",
-    "mean-status": "./bin/meanp-status"
+    "meanp-module": "./bin/meanp-module",
+    "meanp-list": "./bin/meanp-list",
+    "meanp-status": "./bin/meanp-status"
   },
   "keywords": [
     "meanp"
