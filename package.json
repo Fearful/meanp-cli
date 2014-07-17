@@ -1,0 +1,44 @@
+{
+  "name": "meanp",
+  "version": "0.1",
+  "preferGlobal": true,
+  "description": "Simple command line interface for installing and managing meanp modules",
+  "author": {
+    "name": ""
+  },
+  "contributors": [],
+  "main": "index",
+  "bin": {
+    "meanp": "./bin/meanp",
+    "mean-module": "./bin/meanp-module",
+    "mean-list": "./bin/meanp-list",
+    "mean-status": "./bin/meanp-status"
+  },
+  "keywords": [
+    "meanp"
+  ],
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "chalk": "^0.4.0",
+    "commander": "^2.2.0",
+    "dependable": "^0.2.5",
+    "lodash": "^2.4.1",
+    "mongodb": "^1.4.0",
+    "mongoose": "^3.8.12",
+    "npm": "^1.4.7",
+    "opener": "^1.3.0",
+    "shelljs": "^0.3.0",
+    "swig": "^1.3.2",
+    "uglify-js": "^2.4.14"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.10.0",
+    "mocha": "^1.18.2",
+    "should": "^3.2.0"
+  }
+}
