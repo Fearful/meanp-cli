@@ -1,6 +1,6 @@
 {
   "name": "meanp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preferGlobal": true,
   "description": "Simple command line interface for installing and managing meanp modules",
   "author": {
